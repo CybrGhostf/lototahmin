@@ -6,7 +6,7 @@ import configparser as cf
 
 nya=0
 rlko=0
-xTOXEN="1923843249823:ASFASFAWFWFAWFAWFWAF" #Buraya kendi toxeninizi yazın.
+xTOXEN="5179502589:AAE_hhmS56VuEoSkp8Thgp58tzzJrViJnbk" #Buraya kendi toxeninizi yazın.
 db_exists=os.path.exists("database.db")
 conn=sqlite3.connect("database.db", check_same_thread=False)
 cur=conn.cursor()
@@ -101,7 +101,7 @@ def handle(msg):
         bos="   "
         bot.sendMessage(chatid,f"A. {a}{bos}{a2}{bos}{a3}{bos}{a4}{bos}{a5}{bos}{a6}\nB. {b}{bos}{b2}{bos}{b3}{bos}{b4}{bos}{b5}{bos}{b6}\nC. {c}{bos}{c2}{bos}{c3}{bos}{c4}{bos}{c5}{bos}{c6}\nD. {d}{bos}{d2}{bos}{d3}{bos}{d4}{bos}{d5}{bos}{d6}\nE. {e}{bos}{e2}{bos}{e3}{bos}{e4}{bos}{e5}{bos}{e6}\nF. {f}{bos}{f2}{bos}{f3}{bos}{f4}{bos}{f5}{bos}{f6}\nİyi şanslar {firstname} {lastname}. {username}")
     elif text=="/yardim":
-        bot.sendMessage(chatid,"Nyarlko tarafından yazılmıştır. https://github.com/ny4rlk0/Telegram-Superloto-Tahmin-Oyunu/")
+        bot.sendMessage(chatid,"Sairbey tarafından yazılmıştır.")
         bot.sendMessage(chatid,"Komutlar /superloto")
    except:
     pass
